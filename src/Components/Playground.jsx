@@ -94,7 +94,7 @@ const Playground = () => {
                 loading="lazy"
                 onClick={() => handlePreviewImage(msg.text)}
               />
-            ) : msg.sender == "assistant" ? (
+            ) : msg.sender === "assistant" ? (
               <TypewriterEffect contant={msg.text} />
             ) : (
               msg.text
