@@ -44,7 +44,7 @@ const Playground = () => {
       setMessages(currentMessages);
       setTimeout(() => {
         setIsLoading(true);
-      }, 1500);
+      }, 1000);
       setInputMessage("");
       // Call the API and handle the response
       await apiCall(inputMessage.trim())
