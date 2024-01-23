@@ -7,8 +7,13 @@
 
 ```bash
 git clone https://github.com/your-username/react-openai-chat-bot.git
+```
+```bash
 npm install
+```
 
-Set up your OpenAI API key in the configuration file.
+⚠️Set up your OpenAI API key in the configuration file.
 
+```bash
 npm start
+```
